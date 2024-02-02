@@ -1,0 +1,15 @@
+[package]
+name = "polars_phonetics"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "polars_phonetics"
+crate-type = ["cdylib"]
+
+[dependencies]
+polars = { version = "*" }
+pyo3 = { version = "*", features = ["extension-module"] }
+pyo3-polars = { version = "*", features = ["derive"] }
+rapidfuzz = "0.5.0"
+serde = { version = "*", features = ["derive"] }

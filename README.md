@@ -1,2 +1,2 @@
 # polars_rapidfuzz
-A Polars plugin implementing RapidFuzz string comparators
+A Polars plugin implementing phonetic string algos
